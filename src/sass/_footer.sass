@@ -1,0 +1,41 @@
+.footer
+	padding: 45px
+	height: 150px
+	background-color: #68a097
+	&-container
+		display: flex
+		justify-content: center
+	&-icons
+		display: flex
+		justify-content: space-between
+		width: 340px
+		&__item
+			display: block
+			width: 60px
+			height: 60px
+			border-radius: 50%
+			background: #82c8bd center center
+			background-size: 50% auto
+			background-repeat: no-repeat 
+			&-1
+				background-image: url(../img/footer/facebook.svg)
+				background-size: 30% auto
+			&-2
+				background-image: url(../img/footer/twitter.svg)
+			&-3
+				background-image: url(../img/footer/g-plus.svg)
+			&-4
+				background-image: url(../img/footer/lin.svg)
+				background-position: 54% 45%
+@media screen and (max-width: 460px)
+	.footer
+		&-icons
+			&__item
+				width: 50px
+				height: 50px
+@media screen and (max-width: 350px)
+	.footer
+		&-icons
+			&__item
+				width: 44px
+				height: 44px

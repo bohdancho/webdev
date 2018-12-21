@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#contacts-main__form__form").validate({rules:{Name:{required:!0},Phone:{required:!0},Message:{required:!0}},errorPlacement:function(){return!1}})});

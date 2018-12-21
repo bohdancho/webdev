@@ -1,0 +1,162 @@
+.contacts
+	padding-top: 75px
+	padding-bottom: 107px
+	background: #75b4aa url(../img/contacts/contacts-bg.png) center center no-repeat 
+	background-size: cover
+	&-text
+		color: #ffffff
+		margin-bottom: 122px
+	&-main
+		display: flex
+		justify-content: space-between
+		&__contacts
+			width: 50%
+			&__wrapper
+				display: flex
+				align-items: center
+			&__title
+				margin-bottom: 27px
+				color: #ffffff
+				font-family: Lato
+				font-size: 30px
+			&__address
+				display: flex
+				flex-direction: column
+				align-items: space-between
+				margin-right: 8%
+				font-style: normal
+				&__name
+					margin-bottom: 18px
+					color: #c0dfda
+					font-size: 20px
+					font-weight: 700
+				&__place
+					margin-bottom: 77px
+					color: #ffffff
+					font-family: Lato
+					font-size: 16px
+					font-weight: 400
+					&__item
+						margin-bottom: 5px
+				&__net
+					display: flex
+					font-size: 16px
+					font-weight: 400
+					&__name
+						margin-right: 23px
+						color: #d0efea
+						&__item
+							margin-bottom: 4px
+					&__info
+						color: #fff
+						&__item
+							margin-bottom: 4px
+							a
+								color: #fff
+				&__img
+					border-radius: 5px
+					width: 45%
+					cursor: pointer
+		&__form
+			width: 45%
+			text-align: center
+			&__title
+				margin-bottom: 27px
+				color: #ffffff
+				font-size: 30px
+			&__form
+				width: 100%
+				&__input
+					background-color: #68a097
+					padding: 14px 19px	
+					border: 2px solid transparent
+					color: darken(#82c8bd, 10%)
+					border-radius: 4px
+					font-family: 'Lato'
+					font-size: 16px
+					font-weight: 400
+					&::placeholder
+						color: #82c8bd
+					&:focus
+						background-color: #f6f6f6
+				&__text
+					padding-right: 3px
+					width: 47%
+					margin-right: 3%
+				&__tel
+					padding-right: 3px
+					width: 48%
+					border-radius: 4px
+				&__textarea
+					margin-top: 19px
+					margin-bottom: 30px
+					width: 99%
+					height: 159px
+					resize: none
+					overflow: auto
+				&__btn
+					width: 260px
+					height: 50px
+					box-shadow: inset 0 -4px 0 rgba(178, 74, 80, 0.5)
+					background-color: #df5c64
+					border: none
+					border-radius: 4px
+					text-transform: uppercase
+					color: #ffffff
+					font-size: 26px
+					font-weight: 700
+					cursor: pointer
+					&:active
+						box-shadow: none
+						transform: translateY(1px)
+.error 
+  border: 2px solid #ED4337
+@media screen and (max-width: 1056px)
+	.contacts
+		&-main
+			flex-direction: column
+			&__contacts
+				width: 100%
+				margin-bottom: 60px
+				&__wrapper
+					justify-content: space-between
+				&__address
+					&__img
+						max-width: 275px
+			&__form
+				width: 100%
+				&__form
+					&__btn
+						width: 36%
+						min-width: 140px
+@media screen and (max-width: 490px)
+	.contacts
+		&-text
+			margin-bottom: 65px
+		&-main		
+			&__contacts
+				&__title
+					text-align: center
+				&__wrapper
+					flex-direction: column
+					align-items: center
+				&__address
+					margin-bottom: 35px
+					margin-right: 0
+					&__place
+						margin-bottom: 15px
+					&__img
+						width: 190px
+@media screen and (max-width: 400px)
+	.contacts
+		padding-top: 55px
+		padding-bottom: 40px
+		&-main
+			&__form
+				&__form
+					&__text, &__tel
+						width: 100%
+					&__text
+						margin-bottom: 6px
+					&__textarea
+						width: 100%

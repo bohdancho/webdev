@@ -1,0 +1,171 @@
+.work
+	padding-top: 75px
+	padding-bottom: 107px
+	background: #81a256 url(../img/work/work-bg.png) center center no-repeat 
+	background-size: cover
+	&-text
+		color: #fff
+		padding-bottom: 58px
+	&-photos
+		&__title
+			margin-bottom: 47px
+			padding-top: 32px
+			padding-bottom: 32px
+			display: flex
+			justify-content: space-between
+			align-items: center
+			border-top: 1px solid #94b963
+			border-bottom: 1px solid #94b963
+			&__title
+				color: #ffffff
+				font-size: 20px
+				font-weight: 700
+				text-transform: uppercase
+			&__btns
+				display: flex
+				justify-content: flex-end
+				flex: 1
+				&__item
+					margin-left: 5%
+					padding: 10px 8px
+					border: none
+					border-radius: 4px
+					color: #ffffff
+					font-size: 16px
+					font-weight: 700
+					background-color: transparent
+					cursor: pointer
+					outline: none
+					&:invalid
+						border: 1px solid red
+					&_active
+						background-color: #f5c149
+						cursor: auto
+		&__list
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap				
+			&__item
+				width: 24%
+				display: none
+				flex-direction: column
+				margin-bottom: 20px
+				&__img
+					position: relative
+					width: 100%
+					&:hover
+						.work-photos__list__item__img__content
+							background-image: url(../img/work/img-bg.png)
+							&__btn
+								display: block
+					&:before
+						content: ''
+						display: block
+						padding-top: 76%
+					&:after
+						content: ''
+						display: block
+						width: 3px
+						height: 5px
+						position: absolute
+						bottom: 0
+						left: 50%
+						margin-left: -18px
+						border: 18px solid transparent
+						border-bottom: 18px solid #eeeeee
+					&__content
+						border-top-left-radius: 4px
+						border-top-right-radius: 4px
+						cursor: pointer
+						position: absolute
+						top: 0
+						bottom: 0
+						right: 0
+						left: 0
+						background: center center no-repeat
+						background-size: 100% 100%
+						&-1
+							background-image: url(../img/work/img1.png)
+						&-2
+							background-image: url(../img/work/img2.png)
+						&-3
+							background-image: url(../img/work/img3.png)
+						&-4
+							background-image: url(../img/work/img4.png)
+						&-5
+							background-image: url(../img/work/img5.png)
+						&-6
+							background-image: url(../img/work/img6.png)
+						&-7
+							background-image: url(../img/work/img7.png)
+						&-8
+							background-image: url(../img/work/img8.png)
+						&__btn
+							display: none
+							position: absolute
+							width: 50px
+							height: 50px
+							border: 2px solid #fff
+							border-radius: 50%
+							left: 50%
+							margin-left: -25px
+							top: 50%
+							margin-top: -25px
+							text-align: center
+							span
+								color: #ffffff
+								font-family: Lato
+								font-size: 48px
+								font-weight: 300
+								line-height: 40px
+				&__descr
+					min-height: 50px
+					padding: 0 4px
+					display: flex
+					align-items: center
+					justify-content: center
+					flex: 1
+					text-align: center
+					background-color: #eeeeee
+					border-bottom-left-radius: 4px
+					border-bottom-right-radius: 4px
+					color: #727272
+					font-size: 14px
+					font-weight: 400
+					text-transform: uppercase
+@media screen and (max-width: 1056px)
+	.work
+		&-photos
+			&__list
+				&__item
+					width: 48%
+@media screen and (max-width: 691px)
+	.work
+		&-photos
+			&__title
+				flex-direction: column
+				&__title
+					margin-bottom: 25px
+					text-align: center
+					font-size: 30px
+				&__btns
+					justify-content: space-between
+					width: 100%
+					&__item
+						margin: 0			
+@media screen and (max-width: 540px)
+	.work
+		&-photos
+			&__title
+				&__btns
+					flex-wrap: wrap
+					align-items: center
+					&__item
+						width: 40%
+						margin-bottom: 9px
+			&__list
+				flex-direction: column
+				align-items: center
+				justify-content: flex-start
+				&__item
+					width: 70%

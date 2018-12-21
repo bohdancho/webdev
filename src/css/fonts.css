@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Damion';
+    src: url('../fonts/Damion/Damion-Regular.ttf') format('truetype'),
+         url('../fonts/Damion/Damion-Regular.woff2') format('woff2'),
+         url('../fonts/Damion/Damion-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Black.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Light.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Light.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
