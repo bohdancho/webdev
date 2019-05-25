@@ -1,1 +1,0 @@
-lightbox.option({albumLabel:""});
